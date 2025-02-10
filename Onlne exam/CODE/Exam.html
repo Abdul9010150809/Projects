@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exam Pattern</title>
+    <meta content="utf-8">
+    <meta name="viewport" content="width=device-width , initial-scale 1.0">
+    <style>
+    body{
+    text-decoration:none;
+    background-color: purple;
+    margin:0;
+    padding:0;
+    }
+    header{
+    background-color:white;
+    border-radius:25px;
+    filter: blur(0.5px);
+    margin-top: 10px;
+    height: 220px;
+    padding: 0px 0px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    }
+    h1{
+    text-align: center;
+    }
+    
+    img{
+    width:150px;
+    height:150px;
+    border-radius:20px;
+    position: relative;
+    }
+    fieldset{
+    width:500px;
+    justify-content: center;
+    display: flex;
+    align-self: center;
+    position: relative;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    margin-top:170px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: yellow;
+    
+    }
+    legend{
+    text-align: center;
+    font-weight: 900;
+    background-color: azure;
+    }
+    input[type="text"]{
+        width:125px;
+        text-align: center;
+    }
+    input[type="date"]{
+        width:130px;
+        text-align: center;
+    }
+    select{
+        width:135px ;
+        text-align: center;
+    }
+    .tb1{
+    padding:0;
+    margin:0;
+    bottom: 0;
+    border-style: 0;
+    border-spacing: 0px;
+    }
+    td{
+    padding: 0 0;
+    }
+    .tb2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-spacing: 5px;
+    margin: -5px 0 0 0;
+    }
+    .td1{
+    text-align: right;
+    font-weight: 800;
+    padding: 5px;
+    margin-bottom: 0px;
+    }
+    .td2{
+    left:10px;
+    font-weight: 800;
+    }
+    button:hover{
+        color: green;
+        background-color:fuchsia;
+    }
+    button:active{
+        color: aqua;
+    }
+    ul{
+        padding: 0 0px 0px 250px;
+        margin: 0 0 25px 25px;
+        display: grid;
+        grid-auto-flow: column;
+        gap: 50px;
+        right: 25%;
+        left: 25%;
+    }
+    a:hover{
+        color:orange;
+        font-size: large;
+    }
+    a:active{
+        color: blue;
+        background-color:yellowgreen;
+    }
+    .ult{
+    list-style-type: none;;
+    padding: 0 0px 0px 25px;
+    margin: 0 0 25px 25px;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 50px;
+    right: 25%;
+    left: 25%;}
+    nav{
+    background:peachpuff;
+    margin-top: 20px;
+    }
+    .t1{
+    position: relative;
+    display: grid;
+    top: 45px;
+    left: 50px;
+    }
+    section{
+    text-align: center;
+    animation-name: wish;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-timing-function:linear;
+    }
+    @keyframes wish{
+    0%{
+    color:black;
+    background-color:white;
+    }
+    50%{
+    color:orange;
+    background-color:black;
+    }
+    100%{
+    color:pink;
+    background-color:maroon;
+    }
+    }
+    </style>
+</head>
+<body>
+    <header>
+    <!--Logo section-->
+    <table class="tb1" >
+    <tr>
+        <td><h2>
+    Rajiv Gandhi University of Knowledge Technologies - Andhra Pradesh
+        </h2></td>
+        <td rowspan="2" class="t1"><img src="/home/user/Pictures/work pics/rguktlogo.jpeg" alt="logo"></td>
+    </tr>
+    <tr ><td><h2><ul class="ult">
+    <li>Rk Valley</li>
+    <li>Ongole</li>
+    <li>Nuzvid</li>
+    <li>Srikakulam</li>
+    </ul></h2></td></tr>
+    </table>
+    </header>
+    <!--Navigation bar-->
+    <nav><ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#rules">Rules</a></li>
+    <li><a href="#help">Help</a></li>
+    <li><a href="#Exit">Exit</a></li>
+    </ul></nav>
+    <!--Wishes section-->
+    <section>
+    <h3>Welcome to RGUKT Examinations.All the best for your exam.We are always with u to improve you</h3>
+    </section>
+    <!--Data entry site-->
+    <div>
+    <form method="get" action="/home/user/Desktop/CAREER/Projects/Code/Onlne exam/Quiz.html">
+    <fieldset><table class="tb2" cellspacing="2">
+    <legend>Enter your details</legend>
+    <tr ><td class="td1"><label for="id">Enter your ID :</label></td>
+    <td class="td2"><input type="text" id="id" placeholder="Ex:R220128" name="id" required></td></tr>
+    <tr ><td class="td1"><label for="date">Enter your date of birth :</label></td>
+    <td class="td2"><input type="date" name="date" id="date"  required></td></tr>
+    <tr ><td class="td1"><label for="year">Enter your year of study :</label></td>
+    <td class="td2"><input type="text" id="year" name="year" placeholder="Ex:PUC1,E1" required></td></tr>
+    <tr ><td class="td1"><label for="branch">Enter your branch :</label></td>
+        <td><select id="branch" name="branch" placeholder="Ex:PUC1,E1" required>
+        <option type="">MPC</option>
+        <option type="1">MBiPC</option>
+        <option type="2">CSE</option>
+        <option type="3">ECE</option>
+        <option type="">Mech</option>
+        <option type="">MME</option>
+        <option type="4">Chem</option>
+        <option type="5">EEE</option>
+        <option type="6">Civil</option>
+        </select>
+        </td></tr>
+    <tr ><td class="td1"><label for="sem">Enter your sem :</label></td>
+    <td class="td2"><input type="radio" id="sem1"   name="sem1"  ><label for="sem1">SEM 1</label>
+        <input type="radio" id="sem2"  name="sem2" ><label for="sem2">SEM 2</label>
+    </td></tr>
+    <tr ><td class="td1"><label for="mid">Enter your mid :</label></td>
+    <td class="td2"><input type="radio" id="mid1"   name="mid1"  ><label for="mid1">MID 1</label>
+        <input type="radio" id="mid2"  name="mid2" ><label for="MID2">MID 2</label>
+        <input type="radio" id="mid3"  name="mid3" ><label for="mid3">MID 3</label>
+        <input type="radio" id="semexam"  name="semexam" ><label for="semexam">SEM</label>
+    </td></tr>
+    <tr ><td class="td1" ><input type="submit" value="Login" name="Login"></td>
+    <td class="td2"><button >Clear</button></td></tr>
+    </form>
+    </table>
+    </div>
+</body>
+</html>
