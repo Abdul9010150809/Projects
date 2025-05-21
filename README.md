@@ -29,18 +29,5 @@ Projects repo
     • Grade App(In Progess)
             ▪ I designed a grade app html and js file when we give marks at the code it gives the result of the student
 
-    • Tic Tac Toe Game
-            ▪ This folder contains three files named as index.html,app.js,style.css
-            ▪ The index file contains the topics which have to be dispalced on website
-            ▪ The style file conains the styling/designing of the the index page
-            ▪ The app file contains the lopc and user interaction behavior of the webpage.
-            ▪ The output folder contains the pics of the game how it works.
-
-    • Rock paper Scissors game
-            ▪ This folder contains three files named as index.html,app.js,style.css
-            ▪ The index file contains the topics which have to be dispalced on website
-            ▪ The style file conains the styling/designing of the the index page
-            ▪ The app file contains the lopc and user interaction behavior of the webpage.
-            ▪ The output folder contains the pics of the game how it works.
-      
+   
  
