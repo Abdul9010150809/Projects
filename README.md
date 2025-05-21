@@ -93,6 +93,6 @@ Thank you for visiting!
 
 ---
 
-*Made with ❤️ by [Your Name]*
+*Made with ❤️ by Shaik.Abdul Sammed*
 
 
